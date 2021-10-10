@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Van Duc Thai</title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet/less" type="text/css" href="./style.less">
+        <script rel="preload" as="script" crossorigin="anonymous"
+        src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>        
+    </head>
+
+    <body>
+        <div class="control">
+            <div class="color-picker" style="background-color: red"></div>
+            <div class="color-picker" style="background-color: yellow"></div>
+            <div class="color-picker" style="background-color: orange"></div>
+            <div class="color-picker" style="background-color: green"></div>
+            <div class="color-picker" style="background-color: blue"></div>
+            <div class="color-picker" style="background-color: black"></div>
+        </div>
+        <canvas id="draw" width="600px" height="600px"></canvas>
+        <button id="btn-clear">Clear</button>
+    </body>
+
+    <script src="./helper.js"></script>
+    <script src="./script.js"></script>
+</html>
